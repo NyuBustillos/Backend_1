@@ -13,7 +13,7 @@ namespace ClienteAPI.Models
         public int ClienteID { get; set; }
         [Required]
         public string NombreCompleto{ get; set; }
-        public string CorreoElectronico{ get; set; }
+        public string Correo { get; set; }
         public StatusType Estado { get; set; }
 
     }
